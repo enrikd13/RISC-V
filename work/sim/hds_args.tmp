@@ -1,0 +1,1 @@
+ -do /home/docienri/Desktop/12976_PrArch_Exercise_Files/scripts/setup_waves.do -L work -l transcript.txt -i -t ns -multisource_delay latest +typdelays work.tb_riscv_core(structural)

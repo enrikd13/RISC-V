@@ -1,0 +1,50 @@
+# vsim -f hds_args.tmp -foreign "hdsInit /opt_new/tools/HDS_2020.1/resources/downstream/modelsim/ModelSim_64Bit.dll" -pli ""/opt_new/tools/HDS_2020.1/resources/downstream/modelsim/ModelSim_64Bit.dll"" 
+# Start time: 02:26:17 on Dec 30,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vsim-3865) Due to PLI being present, global +acc is being enabled automatically. This will cause your simulation to run very slowly. Please use vsim -no_autoacc to disable this feature. This feature is now deprecated and will be removed from future releases.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.pkg_sim
+# Loading work.tb_riscv_core(structural)#1
+# Loading work.data_memory(behavioral)#1
+# Loading work.instruction_memory(behavioral)#1
+# Loading work.pkg_alu(body)
+# Loading work.pkg_util(body)
+# Loading work.pkg_riscv_insts(body)
+# Loading work.riscv_core(structural)#1
+# Loading work.alu(behavioral)#1
+# Loading work.imm_generator(behavioral)#1
+# Loading work.instr_decoder(behavioral)#1
+# Loading work.regfile(behavioral)#1
+# Loading /opt_new/tools/HDS_2020.1/resources/downstream/modelsim/ModelSim_64Bit.dll
+# do /home/docienri/Desktop/12976_PrArch_Exercise_Files/scripts/setup_waves.do
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_riscv_core/u_riscv_core/u_reg_file
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_riscv_core/u_riscv_core/u_reg_file
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_riscv_core/u_riscv_core/u_alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_riscv_core/u_instr_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_riscv_core/u_riscv_core/u_alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /tb_riscv_core/u_riscv_core/u_alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /tb_riscv_core/u_riscv_core/u_alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 2  Instance: /tb_riscv_core/u_riscv_core/u_reg_file
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 2  Instance: /tb_riscv_core/u_riscv_core/u_reg_file
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 3  Instance: /tb_riscv_core/u_riscv_core/u_alu
+# ** Failure: Data Address not a valid range in the data memory.
+#    Time: 2950 ns  Iteration: 9  Process: /tb_riscv_core/u_data_memory/proc_mem File: /home/docienri/Desktop/risc-v/work/hdl/data_memory_behavioral.vhd
+# 0
+# Break in Process proc_mem at /home/docienri/Desktop/risc-v/work/hdl/data_memory_behavioral.vhd line 103
+# End time: 02:26:55 on Dec 30,2020, Elapsed time: 0:00:38
+# Errors: 1, Warnings: 11

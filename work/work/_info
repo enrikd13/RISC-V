@@ -1,0 +1,535 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.01, Jan 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/docienri/Desktop/12976_PrArch_Exercise_Files
+T_opt
+!s110 1609291578
+VzU`@Qnfl@SlOhT3YNe=QV3
+04 13 10 work tb_riscv_core structural 1
+=1-002590cb0dcb-5febd739-860c8-38a7
+o-quiet +acc -auto_acc_if_foreign -work work -L work
+tCvgOpt 0
+n@_opt
+OL;O;2020.1;71
+Ealu
+Z0 w1609289585
+Z1 DPx4 work 8 pkg_util 0 22 5o@UQbEemUX<TP06_Bh170
+Z2 DPx4 work 7 pkg_alu 0 22 VA^5omBN^iShjSaX@1EhE1
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z6 d/home/docienri/Desktop/risc-v/work/work
+Z7 8/home/docienri/Desktop/risc-v/work/hdl/alu_behavioral.vhd
+Z8 F/home/docienri/Desktop/risc-v/work/hdl/alu_behavioral.vhd
+l0
+Z9 L17 1
+Va_JjXmCDiMJP^]dl6AG2f1
+!s100 Q1XM2b0bW`;Q@V`Xai;2H3
+Z10 OL;C;2020.1;71
+33
+Z11 !s110 1609291378
+!i10b 1
+Z12 !s108 1609291378.000000
+Z13 !s90 -work|work|-nologo|-2008|-f|/tmp/Files1|
+Z14 !s107 /home/docienri/Desktop/risc-v/work/hdl/riscv_core_structural.vhd|/home/docienri/Desktop/risc-v/work/hdl/regfile_behavioral.vhd|/home/docienri/Desktop/risc-v/work/hdl/instr_decoder_behavioral.vhd|/home/docienri/Desktop/risc-v/work/hdl/alu_behavioral.vhd|/home/docienri/Desktop/risc-v/work/hdl/imm_generator_behavioral.vhd|/home/docienri/Desktop/risc-v/work/hdl/pkg_riscv_insts.vhd|/home/docienri/Desktop/risc-v/work/hdl/pkg_util.vhd|/home/docienri/Desktop/risc-v/work/hdl/pkg_alu.vhd|
+!i113 0
+Z15 o-nologo -work work -2008
+Z16 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+Z17 DEx4 work 3 alu 0 22 a_JjXmCDiMJP^]dl6AG2f1
+!i122 0
+l33
+L32 67
+VDcRA?@P<GlDnWAbIhUfGR0
+!s100 HlWOgKUUCgU@zJiB5z3Hf1
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Edata_memory
+R0
+Z18 DPx4 work 7 pkg_sim 0 22 :X3>C34naD=bJm8BYfj]:0
+R3
+Z19 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R4
+R5
+!i122 2
+R6
+Z20 8/home/docienri/Desktop/risc-v/work/hdl/data_memory_behavioral.vhd
+Z21 F/home/docienri/Desktop/risc-v/work/hdl/data_memory_behavioral.vhd
+l0
+Z22 L19 1
+V<7]mJb@iJa1mmR;Egg4Xm2
+!s100 9L:o0E2a=T4l^zUg38DjD3
+R10
+33
+Z23 !s110 1609291570
+!i10b 1
+Z24 !s108 1609291570.000000
+Z25 !s90 -work|work|-nologo|-2008|-f|/tmp/Files2|
+Z26 !s107 /home/docienri/Desktop/risc-v/work/hdl/tb_riscv_core_structural.vhd|/home/docienri/Desktop/risc-v/work/hdl/instruction_memory_behavioral.vhd|/home/docienri/Desktop/risc-v/work/hdl/data_memory_behavioral.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R18
+R3
+R19
+R4
+R5
+Z27 DEx4 work 11 data_memory 0 22 <7]mJb@iJa1mmR;Egg4Xm2
+!i122 2
+l47
+L34 89
+VC`3;_o^0I?S9_]]:lF[Pk2
+!s100 2ih:gKeVVGX8c@2YV:Co72
+R10
+33
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R15
+R16
+Eimm_generator
+R0
+Z28 DPx4 work 15 pkg_riscv_insts 0 22 ;eJD=E0a?Fc>13<<]a=B=2
+R1
+R2
+R4
+R5
+!i122 0
+R6
+Z29 8/home/docienri/Desktop/risc-v/work/hdl/imm_generator_behavioral.vhd
+Z30 F/home/docienri/Desktop/risc-v/work/hdl/imm_generator_behavioral.vhd
+l0
+R9
+Vmm1E:e1f_=9jmcY_[Na3c3
+!s100 3V?M]>mRYh>^Heg:<bAC10
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Abehavioral
+R28
+R1
+R2
+R4
+R5
+Z31 DEx4 work 13 imm_generator 0 22 mm1E:e1f_=9jmcY_[Na3c3
+!i122 0
+l35
+L28 55
+VGSUKzz_ANQM@2B5Xk7oA>0
+!s100 <mX0F^l`2m^g99Rz2zlaf2
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Einstr_decoder
+Z32 w1609290150
+R2
+R28
+R4
+R5
+!i122 0
+R6
+Z33 8/home/docienri/Desktop/risc-v/work/hdl/instr_decoder_behavioral.vhd
+Z34 F/home/docienri/Desktop/risc-v/work/hdl/instr_decoder_behavioral.vhd
+l0
+Z35 L16 1
+VR[032:?eIDC_WKf3k5d@V2
+!s100 BjH0F:0ODn`C:MEc]`X<?2
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Abehavioral
+R2
+R28
+R4
+R5
+Z36 DEx4 work 13 instr_decoder 0 22 R[032:?eIDC_WKf3k5d@V2
+!i122 0
+l51
+L35 200
+VcK[3Q[iZ61K_W<GT3eLUn1
+!s100 gkkglM1:bf3F_fie^ALaa1
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Einstruction_memory
+Z37 w1609289586
+R18
+R3
+R19
+R4
+R5
+!i122 2
+R6
+Z38 8/home/docienri/Desktop/risc-v/work/hdl/instruction_memory_behavioral.vhd
+Z39 F/home/docienri/Desktop/risc-v/work/hdl/instruction_memory_behavioral.vhd
+l0
+R22
+V>Z_lc_`P?dDC0cmZTWgPU3
+!s100 5>27VZHiPXB:UPCCW_[aP2
+R10
+33
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R15
+R16
+Abehavioral
+R18
+R3
+R19
+R4
+R5
+Z40 DEx4 work 18 instruction_memory 0 22 >Z_lc_`P?dDC0cmZTWgPU3
+!i122 2
+l35
+L32 42
+VI;j>:NKTRI<b`?fOQ;@1K0
+!s100 XS^S4R4X><[aXZcQ@P_Of0
+R10
+33
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R15
+R16
+Ppkg_alu
+!i122 0
+R37
+R6
+Z41 8/home/docienri/Desktop/risc-v/work/hdl/pkg_alu.vhd
+Z42 F/home/docienri/Desktop/risc-v/work/hdl/pkg_alu.vhd
+l0
+L10 1
+VVA^5omBN^iShjSaX@1EhE1
+!s100 YeVQ9LEUcXNY_L>e8m_Hb2
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Bbody
+R2
+!i122 0
+l0
+L31 1
+VPfe_JU==EB5_RH6@0<[4?3
+!s100 e9>=1zdUU]iFFNN7kE7BR3
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Ppkg_riscv_insts
+R4
+R5
+!i122 0
+R37
+R6
+Z43 8/home/docienri/Desktop/risc-v/work/hdl/pkg_riscv_insts.vhd
+Z44 F/home/docienri/Desktop/risc-v/work/hdl/pkg_riscv_insts.vhd
+l0
+Z45 L13 1
+V;eJD=E0a?Fc>13<<]a=B=2
+!s100 JlSKNAC9`>[ZoRW3:nz422
+R10
+33
+b1
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Bbody
+R28
+R4
+R5
+!i122 0
+l0
+L72 1
+V=bCIcOigUW195Hn^CF2KK3
+!s100 ZY;bNMIoOklln=<JCkJz^3
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Ppkg_sim
+R4
+R5
+!i122 1
+w1609291146
+R6
+8/home/docienri/Desktop/risc-v/work/hdl/pkg_sim.vhd
+F/home/docienri/Desktop/risc-v/work/hdl/pkg_sim.vhd
+l0
+Z46 L14 1
+V:X3>C34naD=bJm8BYfj]:0
+!s100 ZSnU@940S];I5BU6L4`]O3
+R10
+31
+R23
+!i10b 1
+R24
+!s90 -work|work|-nologo|-93|-f|/tmp/Files1|
+!s107 /home/docienri/Desktop/risc-v/work/hdl/pkg_sim.vhd|
+!i113 0
+o-nologo -work work -93
+R16
+Ppkg_util
+R4
+R5
+!i122 0
+R37
+R6
+Z47 8/home/docienri/Desktop/risc-v/work/hdl/pkg_util.vhd
+Z48 F/home/docienri/Desktop/risc-v/work/hdl/pkg_util.vhd
+l0
+R45
+V5o@UQbEemUX<TP06_Bh170
+!s100 ?XP`E31fU][W]:aPIzhAi0
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Bbody
+R1
+R4
+R5
+!i122 0
+l0
+R35
+VjMjoNGXGXENne^a549jbl1
+!s100 `Wz;ffE;D6_f7JHn?GVgb1
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Eregfile
+R37
+R3
+R4
+R5
+!i122 0
+R6
+Z49 8/home/docienri/Desktop/risc-v/work/hdl/regfile_behavioral.vhd
+Z50 F/home/docienri/Desktop/risc-v/work/hdl/regfile_behavioral.vhd
+l0
+R46
+VF^o<a5oSmC0[4;4jcdPmD3
+!s100 ^ci2^=V6ISV@Y[CEBLFCD2
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Abehavioral
+R3
+R4
+R5
+Z51 DEx4 work 7 regfile 0 22 F^o<a5oSmC0[4;4jcdPmD3
+!i122 0
+l35
+L31 25
+VnDlh0_mL^zXnAdUXD0WR[0
+!s100 `NfK_Ua;jiB?L@YbZRzP73
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Eriscv_core
+Z52 w1609291377
+R4
+R5
+!i122 0
+R6
+Z53 8/home/docienri/Desktop/risc-v/work/hdl/riscv_core_structural.vhd
+Z54 F/home/docienri/Desktop/risc-v/work/hdl/riscv_core_structural.vhd
+l0
+L12 1
+Vj5RfBha5P04ATgZA`KJG12
+!s100 eNCKg[58[iB50z=@QSl@>2
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Astructural
+R51
+R36
+R31
+R17
+Z55 DEx4 work 10 riscv_core 0 22 j5RfBha5P04ATgZA`KJG12
+R28
+R1
+R2
+R3
+R4
+R5
+!i122 0
+l136
+L47 227
+VVL9ebkF=nP?A<9A0j1UP41
+!s100 Z@YH^;mJ[SFdn_NL_`ace1
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Etb_riscv_core
+Z56 w1609291569
+R3
+R4
+R5
+!i122 2
+R6
+Z57 8/home/docienri/Desktop/risc-v/work/hdl/tb_riscv_core_structural.vhd
+Z58 F/home/docienri/Desktop/risc-v/work/hdl/tb_riscv_core_structural.vhd
+l0
+R45
+VTGEaeZ<c91obBZMEGLgBO1
+!s100 <1WjfPjmZKn@hY?Z6WYD:3
+R10
+33
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R15
+R16
+Astructural
+R55
+R40
+R18
+R19
+R27
+DEx4 work 13 tb_riscv_core 0 22 TGEaeZ<c91obBZMEGLgBO1
+R3
+R4
+R5
+!i122 2
+l97
+L33 119
+V@8<[Lf@c4VD<[0b<bfSfW2
+!s100 WL[5YkHlFP`elfmB3TU@]0
+R10
+33
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R15
+R16

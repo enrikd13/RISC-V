@@ -14,19 +14,22 @@ USE work.pkg_riscv_insts.all;
 USE work.pkg_alu.all;
 
 ENTITY instr_decoder IS
-  	port(
-	  i_encoded_instr : in std_logic_vector(31 downto 0);
-		
-	  o_decoded_instr : out t_riscv_inst;
-	  o_branch : out std_logic;
-	  o_memrd  : out std_logic;
-	  o_memwr  : out std_logic;
-	  o_mem2reg: out std_logic;
-	  o_regwr  : out std_logic;
-	  o_alusrc : out std_logic;
-	  o_jal    : out std_logic;
-	  o_aluop  : out aluop);
-END ENTITY instr_decoder;
+   PORT( 
+      i_encoded_instr : IN     std_logic_vector (31 DOWNTO 0);
+      o_decoded_instr : OUT    t_riscv_inst;
+      o_branch        : OUT    std_logic;
+      o_memrd         : OUT    std_logic;
+      o_memwr         : OUT    std_logic;
+      o_mem2reg       : OUT    std_logic;
+      o_regwr         : OUT    std_logic;
+      o_alusrc        : OUT    std_logic;
+      o_jal           : OUT    std_logic;
+      o_aluop         : OUT    aluop
+   );
+
+-- Declarations
+
+END instr_decoder ;
 
 --
 ARCHITECTURE behavioral OF instr_decoder IS
