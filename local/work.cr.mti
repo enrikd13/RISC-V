@@ -1,0 +1,116 @@
+C:/Users/Enrik/Desktop/risc-v/work/hdl/alu_behavioral.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Enrik/Desktop/risc-v/work/hdl/alu_behavioral.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pkg_alu
+-- Loading package pkg_util
+-- Compiling entity alu
+-- Compiling architecture behavioral of alu
+
+} {} {}} C:/Users/Enrik/Desktop/risc-v/work/hdl/data_memory_behavioral.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Enrik/Desktop/risc-v/work/hdl/data_memory_behavioral.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Loading package pkg_sim
+-- Compiling entity data_memory
+-- Compiling architecture behavioral of data_memory
+
+} {} {}} C:/Users/Enrik/Desktop/risc-v/work/hdl/riscv_core_structural.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Enrik/Desktop/risc-v/work/hdl/riscv_core_structural.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity riscv_core
+-- Loading package NUMERIC_STD
+-- Loading package pkg_alu
+-- Loading package pkg_util
+-- Loading package pkg_riscv_insts
+-- Compiling architecture structural of riscv_core
+-- Loading entity alu
+-- Loading entity imm_generator
+-- Loading entity instr_decoder
+-- Loading entity regfile
+
+} {} {}} C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_riscv_insts.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_riscv_insts.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package pkg_riscv_insts
+-- Compiling package body pkg_riscv_insts
+-- Loading package pkg_riscv_insts
+
+} {} {}} C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_sim.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_sim.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package pkg_sim
+
+} {} {}} C:/Users/Enrik/Desktop/risc-v/work/hdl/regfile_behavioral.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Enrik/Desktop/risc-v/work/hdl/regfile_behavioral.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity regfile
+-- Compiling architecture behavioral of regfile
+
+} {} {}} C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_alu.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_alu.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling package pkg_alu
+-- Compiling package body pkg_alu
+-- Loading package pkg_alu
+
+} {} {}} C:/Users/Enrik/Desktop/risc-v/work/hdl/instruction_memory_behavioral.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Enrik/Desktop/risc-v/work/hdl/instruction_memory_behavioral.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Loading package pkg_sim
+-- Compiling entity instruction_memory
+-- Compiling architecture behavioral of instruction_memory
+
+} {} {}} C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_util.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_util.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package pkg_util
+-- Compiling package body pkg_util
+-- Loading package pkg_util
+
+} {} {}} C:/Users/Enrik/Desktop/risc-v/work/hdl/tb_riscv_core_structural.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Enrik/Desktop/risc-v/work/hdl/tb_riscv_core_structural.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_riscv_core
+-- Compiling architecture structural of tb_riscv_core
+-- Loading package std_logic_textio
+-- Loading package pkg_sim
+-- Loading entity data_memory
+-- Loading entity instruction_memory
+-- Loading entity riscv_core
+
+} {} {}} C:/Users/Enrik/Desktop/risc-v/work/hdl/imm_generator_behavioral.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Enrik/Desktop/risc-v/work/hdl/imm_generator_behavioral.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package pkg_alu
+-- Loading package pkg_util
+-- Loading package pkg_riscv_insts
+-- Compiling entity imm_generator
+-- Compiling architecture behavioral of imm_generator
+
+} {} {}}

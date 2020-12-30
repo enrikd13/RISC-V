@@ -24,6 +24,7 @@ ENTITY instr_decoder IS
 	  o_mem2reg: out std_logic;
 	  o_regwr  : out std_logic;
 	  o_alusrc : out std_logic;
+	  o_jal    : out std_logic;
 	  o_aluop  : out aluop);
 END ENTITY instr_decoder;
 
@@ -41,6 +42,7 @@ ARCHITECTURE behavioral OF instr_decoder IS
   signal s_mem2reg: std_logic;
   signal s_regwr  : std_logic;
   signal s_alusrc : std_logic;
+  signal s_jal    : std_logic;
   signal s_aluop  : aluop;
 	
 BEGIN
@@ -52,7 +54,9 @@ BEGIN
   p_decode : process(opcode, funct3, funct7)
   begin
    	  if opcode = "0110111" then
-   	    s_decoded_instr <= INST_LUI;
+		   s_decoded_instr <= INST_LUI;
+	  elsif opcode = "1101111" then
+		s_decoded_instr <= INST_JAL;
   		
       elsif opcode = "1100011" and funct3 = "000" then
     		  s_decoded_instr <= INST_BEQ;
@@ -120,6 +124,7 @@ BEGIN
 	  s_mem2reg <= '0';
 	  s_regwr   <= '0';
 	  s_alusrc  <= '0';
+	  s_jal     <= '0';
 	  s_aluop   <= OP_A;
     
     
@@ -136,7 +141,9 @@ BEGIN
       s_regwr <= '1';
     elsif s_decoded_instr = INST_SW then
      s_alusrc <= '1';
-    	s_memwr <= '1';
+		s_memwr <= '1';
+	elsif s_decoded_instr = INST_JAL then
+		s_jal <='1';
     elsif is_branch(s_decoded_instr) then
     	s_branch <= '1';
     end if;
@@ -145,6 +152,9 @@ BEGIN
     case s_decoded_instr is
 			when INST_LUI =>
 				s_aluop <= OP_B;
+
+			when INST_JAL =>
+				s_aluop <= OP_ADD;
 
 			when INST_BEQ =>
 				s_aluop <= OP_SUB;
@@ -215,6 +225,7 @@ BEGIN
 	o_mem2reg <= s_mem2reg;
 	o_regwr   <= s_regwr;
 	o_alusrc  <= s_alusrc;
+	o_jal     <= s_jal;
 	o_aluop   <= s_aluop;
 	
 END ARCHITECTURE behavioral;

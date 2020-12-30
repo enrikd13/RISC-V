@@ -16,7 +16,8 @@ PACKAGE pkg_riscv_insts IS
   type t_riscv_inst is (
     -- Load (upper) immediate operation
     -- U-type
-    INST_LUI,
+	INST_LUI,
+	INST_JAL,
 
     -- Control operations
     -- B-type

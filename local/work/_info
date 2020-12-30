@@ -1,0 +1,505 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+Ealu
+Z0 w1609285246
+Z1 DPx4 work 8 pkg_util 0 22 PVn9Eh;A9[d@lY84ZzlIR1
+Z2 DPx4 work 7 pkg_alu 0 22 jdUfOj:[M@?P>ZX^c`JNR0
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dC:/Users/Enrik/Desktop/risc-v/local
+Z7 8C:/Users/Enrik/Desktop/risc-v/work/hdl/alu_behavioral.vhd
+Z8 FC:/Users/Enrik/Desktop/risc-v/work/hdl/alu_behavioral.vhd
+l0
+L17
+VE5G2Y0gPVKOd;M]f9[Jaz3
+!s100 Q1XM2b0bW`;Q@V`Xai;2H3
+Z9 OP;C;10.4a;61
+32
+Z10 !s110 1609287466
+!i10b 1
+Z11 !s108 1609287466.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Enrik/Desktop/risc-v/work/hdl/alu_behavioral.vhd|
+Z13 !s107 C:/Users/Enrik/Desktop/risc-v/work/hdl/alu_behavioral.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit -O0
+Z15 tExplicit 1
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+Z16 DEx4 work 3 alu 0 22 E5G2Y0gPVKOd;M]f9[Jaz3
+l33
+L32
+V12]T5:>R7RO8PlnK^=4hf3
+!s100 HlWOgKUUCgU@zJiB5z3Hf1
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Edata_memory
+R0
+Z17 DPx4 work 7 pkg_sim 0 22 BClQh=zfFl4jMKjJAO5if1
+R3
+Z18 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R4
+R5
+R6
+Z19 8C:/Users/Enrik/Desktop/risc-v/work/hdl/data_memory_behavioral.vhd
+Z20 FC:/Users/Enrik/Desktop/risc-v/work/hdl/data_memory_behavioral.vhd
+l0
+L19
+V2QM14c36bBXV<U7]_[F?c2
+!s100 9L:o0E2a=T4l^zUg38DjD3
+R9
+32
+Z21 !s110 1609287467
+!i10b 1
+Z22 !s108 1609287467.000000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Enrik/Desktop/risc-v/work/hdl/data_memory_behavioral.vhd|
+Z24 !s107 C:/Users/Enrik/Desktop/risc-v/work/hdl/data_memory_behavioral.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R17
+R3
+R18
+R4
+R5
+Z25 DEx4 work 11 data_memory 0 22 2QM14c36bBXV<U7]_[F?c2
+l47
+L34
+Z26 VW]0dBfIA7UF8??Ph1CEoa1
+Z27 !s100 2ih:gKeVVGX8c@2YV:Co72
+R9
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R14
+R15
+Eimm_generator
+R0
+Z28 DPx4 work 15 pkg_riscv_insts 0 22 ?dQ;1HCQ@N>gmKnOoVg_:1
+R1
+R2
+R4
+R5
+R6
+Z29 8C:/Users/Enrik/Desktop/risc-v/work/hdl/imm_generator_behavioral.vhd
+Z30 FC:/Users/Enrik/Desktop/risc-v/work/hdl/imm_generator_behavioral.vhd
+l0
+L17
+Vbb^?44QV5T1aIAAQRkeei0
+!s100 3V?M]>mRYh>^Heg:<bAC10
+R9
+32
+Z31 !s110 1609287465
+!i10b 1
+Z32 !s108 1609287465.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Enrik/Desktop/risc-v/work/hdl/imm_generator_behavioral.vhd|
+Z34 !s107 C:/Users/Enrik/Desktop/risc-v/work/hdl/imm_generator_behavioral.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R28
+R1
+R2
+R4
+R5
+Z35 DEx4 work 13 imm_generator 0 22 bb^?44QV5T1aIAAQRkeei0
+l35
+L28
+VQXG^cV8hbHzNbMm9i_G=J1
+!s100 <mX0F^l`2m^g99Rz2zlaf2
+R9
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R14
+R15
+Einstr_decoder
+Z36 w1609287444
+R2
+R28
+R4
+R5
+R6
+Z37 8C:/Users/Enrik/Desktop/risc-v/work/hdl/instr_decoder_behavioral.vhd
+Z38 FC:/Users/Enrik/Desktop/risc-v/work/hdl/instr_decoder_behavioral.vhd
+l0
+L16
+VB0joN@flzc@KcJH:o`VGc3
+!s100 P_^A;B2RW?UE@eJkcIRj=3
+R9
+32
+R31
+!i10b 1
+R32
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Enrik/Desktop/risc-v/work/hdl/instr_decoder_behavioral.vhd|
+Z40 !s107 C:/Users/Enrik/Desktop/risc-v/work/hdl/instr_decoder_behavioral.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R28
+R4
+R5
+Z41 DEx4 work 13 instr_decoder 0 22 B0joN@flzc@KcJH:o`VGc3
+l48
+L32
+V1[IO3c2YZ`c931GIPZh3A1
+!s100 `@F^O5PZoO^>:;GPQMo9<1
+R9
+32
+R31
+!i10b 1
+R32
+R39
+R40
+!i113 1
+R14
+R15
+Einstruction_memory
+R0
+R17
+R3
+R18
+R4
+R5
+R6
+Z42 8C:/Users/Enrik/Desktop/risc-v/work/hdl/instruction_memory_behavioral.vhd
+Z43 FC:/Users/Enrik/Desktop/risc-v/work/hdl/instruction_memory_behavioral.vhd
+l0
+L19
+Vk:Z0fLO?egVZ>YCiEl0CF3
+!s100 5>27VZHiPXB:UPCCW_[aP2
+R9
+32
+R31
+!i10b 1
+R32
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Enrik/Desktop/risc-v/work/hdl/instruction_memory_behavioral.vhd|
+Z45 !s107 C:/Users/Enrik/Desktop/risc-v/work/hdl/instruction_memory_behavioral.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R17
+R3
+R18
+R4
+R5
+Z46 DEx4 work 18 instruction_memory 0 22 k:Z0fLO?egVZ>YCiEl0CF3
+l35
+L32
+VY=ciF6>GnzSnUIoeJ9;2;0
+!s100 XS^S4R4X><[aXZcQ@P_Of0
+R9
+32
+R31
+!i10b 1
+R32
+R44
+R45
+!i113 1
+R14
+R15
+Ppkg_alu
+R0
+R6
+Z47 8C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_alu.vhd
+Z48 FC:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_alu.vhd
+l0
+L10
+VjdUfOj:[M@?P>ZX^c`JNR0
+!s100 YeVQ9LEUcXNY_L>e8m_Hb2
+R9
+32
+R31
+!i10b 1
+R32
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_alu.vhd|
+Z50 !s107 C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_alu.vhd|
+!i113 1
+R14
+R15
+Bbody
+R2
+l0
+L31
+V:<2GQYO>[>89e:FEV7lCD0
+!s100 e9>=1zdUU]iFFNN7kE7BR3
+R9
+32
+R31
+!i10b 1
+R32
+R49
+R50
+!i113 1
+R14
+R15
+Z51 nbody
+Ppkg_riscv_insts
+R4
+R5
+Z52 w1609286961
+R6
+Z53 8C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_riscv_insts.vhd
+Z54 FC:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_riscv_insts.vhd
+l0
+L13
+V?dQ;1HCQ@N>gmKnOoVg_:1
+!s100 JlSKNAC9`>[ZoRW3:nz422
+R9
+32
+b1
+R31
+!i10b 1
+R32
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_riscv_insts.vhd|
+Z56 !s107 C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_riscv_insts.vhd|
+!i113 1
+R14
+R15
+Bbody
+R28
+R4
+R5
+l0
+L72
+Vl]Qb1`<^?]3PZQaLD289K3
+!s100 ZY;bNMIoOklln=<JCkJz^3
+R9
+32
+R31
+!i10b 1
+R32
+R55
+R56
+!i113 1
+R14
+R15
+R51
+Ppkg_sim
+R4
+R5
+w1609285470
+R6
+8C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_sim.vhd
+FC:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_sim.vhd
+l0
+L14
+VBClQh=zfFl4jMKjJAO5if1
+!s100 lCG]^?Wl=ETg`Kn6HG87X0
+R9
+32
+R10
+!i10b 1
+R32
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_sim.vhd|
+!s107 C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_sim.vhd|
+!i113 1
+R14
+R15
+Ppkg_util
+R4
+R5
+R0
+R6
+Z57 8C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_util.vhd
+Z58 FC:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_util.vhd
+l0
+L13
+VPVn9Eh;A9[d@lY84ZzlIR1
+!s100 ?XP`E31fU][W]:aPIzhAi0
+R9
+32
+R10
+!i10b 1
+R11
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_util.vhd|
+Z60 !s107 C:/Users/Enrik/Desktop/risc-v/work/hdl/pkg_util.vhd|
+!i113 1
+R14
+R15
+Bbody
+R1
+R4
+R5
+l0
+L16
+V_aY@<zPFW=BkhU_jHWYDf0
+!s100 `Wz;ffE;D6_f7JHn?GVgb1
+R9
+32
+R10
+!i10b 1
+R11
+R59
+R60
+!i113 1
+R14
+R15
+R51
+Eregfile
+R0
+R3
+R4
+R5
+R6
+Z61 8C:/Users/Enrik/Desktop/risc-v/work/hdl/regfile_behavioral.vhd
+Z62 FC:/Users/Enrik/Desktop/risc-v/work/hdl/regfile_behavioral.vhd
+l0
+L14
+V1TeUEIi@J0:EURAz<YNdd0
+!s100 ^ci2^=V6ISV@Y[CEBLFCD2
+R9
+32
+R10
+!i10b 1
+R11
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Enrik/Desktop/risc-v/work/hdl/regfile_behavioral.vhd|
+Z64 !s107 C:/Users/Enrik/Desktop/risc-v/work/hdl/regfile_behavioral.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R3
+R4
+R5
+Z65 DEx4 work 7 regfile 0 22 1TeUEIi@J0:EURAz<YNdd0
+l35
+L31
+V3lAed0V1V<FlE6T6G6;<W1
+!s100 `NfK_Ua;jiB?L@YbZRzP73
+R9
+32
+R10
+!i10b 1
+R11
+R63
+R64
+!i113 1
+R14
+R15
+Eriscv_core
+R0
+R4
+R5
+R6
+Z66 8C:/Users/Enrik/Desktop/risc-v/work/hdl/riscv_core_structural.vhd
+Z67 FC:/Users/Enrik/Desktop/risc-v/work/hdl/riscv_core_structural.vhd
+l0
+L12
+V8bJCiY?3HiMJ6FI>`AeI^0
+!s100 eNCKg[58[iB50z=@QSl@>2
+R9
+32
+R10
+!i10b 1
+R11
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Enrik/Desktop/risc-v/work/hdl/riscv_core_structural.vhd|
+Z69 !s107 C:/Users/Enrik/Desktop/risc-v/work/hdl/riscv_core_structural.vhd|
+!i113 1
+R14
+R15
+Astructural
+R65
+R41
+R35
+R16
+Z70 DEx4 work 10 riscv_core 0 22 8bJCiY?3HiMJ6FI>`AeI^0
+R28
+R1
+R2
+R3
+R4
+R5
+l133
+L47
+V=SPGh;i>AGmgZ5UGn@c140
+!s100 PK:1ZAOTo9J3NgO0lMIO[3
+R9
+32
+R10
+!i10b 1
+R11
+R68
+R69
+!i113 1
+R14
+R15
+Etb_riscv_core
+R0
+R3
+R4
+R5
+R6
+Z71 8C:/Users/Enrik/Desktop/risc-v/work/hdl/tb_riscv_core_structural.vhd
+Z72 FC:/Users/Enrik/Desktop/risc-v/work/hdl/tb_riscv_core_structural.vhd
+l0
+L13
+VD`LUWeJjE^NL]EG@ol:Ya0
+!s100 <1WjfPjmZKn@hY?Z6WYD:3
+R9
+32
+R10
+!i10b 1
+R11
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Enrik/Desktop/risc-v/work/hdl/tb_riscv_core_structural.vhd|
+Z74 !s107 C:/Users/Enrik/Desktop/risc-v/work/hdl/tb_riscv_core_structural.vhd|
+!i113 1
+R14
+R15
+Astructural
+R70
+R46
+R17
+R18
+R25
+DEx4 work 13 tb_riscv_core 0 22 D`LUWeJjE^NL]EG@ol:Ya0
+R3
+R4
+R5
+l97
+L33
+VoLN5khc6Ve=I@?hR[[dH=3
+!s100 A1DGKj_^e[Hhe]_YQAT[>3
+R9
+32
+R10
+!i10b 1
+R11
+R73
+R74
+!i113 1
+R14
+R15
